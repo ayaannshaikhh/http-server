@@ -35,15 +35,6 @@ The `main.c` file sets up the server and starts it:
 - A `Server` instance is created using the `server_constructor`.
 - The `launch` function is invoked to start handling client requests.
 
-### Example Response
-The server sends the following HTTP response to clients:
-```HTTP/1.1 200 OK
-GMT
-Server: Apache/2.2.14 (Win32)
-Last-Modified: Wed 22 Jul 2009 19:15:56 GMT
-Content-Type: text/html
-Connection: Closed```
-
 ### Using the `libeom` Library
 This project integrates the `libeom` library to handle data structures and networking functionalities. The library provides:
 - **Networking Utilities**: Simplifies server socket creation and management.

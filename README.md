@@ -52,11 +52,17 @@ To compile and run the project, you need:
 
 ### Setup
 1. Clone the repository:
-```git clone https://github.com/ayaannshaikhh/http-server.git && cd http-server```
+```
+git clone https://github.com/ayaannshaikhh/http-server.git && cd http-server
+```
 2. Clone the `libeom` library:
-```git clone https://github.com/ericomeehan/libeom.git```
+```
+git clone https://github.com/ericomeehan/libeom.git
+```
 3. Run `make` and the executable:
-```./http_server```
+```
+./http_server
+```
 4. Search for `127.0.0.1` on your browser
 
 ## Acknowledgments
